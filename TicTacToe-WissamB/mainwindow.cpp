@@ -19,7 +19,6 @@ MainWindow::MainWindow(QWidget *parent)
     Case[8] = ui->pushButton_8;
     Case[9] = ui->pushButton_9;
 
-    Case[2]->setText("O");
 
 }
 
