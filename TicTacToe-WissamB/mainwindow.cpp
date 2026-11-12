@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QPushButton>
+#include "QRandomGenerator"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -35,6 +36,17 @@ bool MainWindow::caseVide(int n) {
         return true;
     }
 }
+// jouer avec l'ordinateur
+void MainWindow::ordinateur() {
+    int n;
+    n=QRandomGenerator::global()->bounded(1,10);
+    do {
+        joue(n, "O");
+    }while();
+    }
+
+}
+
 
 // coche la case n avec X ou O
 void MainWindow::joue(int n, QString coche) {

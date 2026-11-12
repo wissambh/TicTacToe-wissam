@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include "QRandomGenerator"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -37,5 +38,7 @@ private:
     void joue(int n, QString coche);
 
     bool caseVide(int n);
+
+    void ordinateur(int n);
 };
 #endif // MAINWINDOW_H
