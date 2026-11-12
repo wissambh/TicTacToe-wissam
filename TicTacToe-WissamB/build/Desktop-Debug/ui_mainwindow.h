@@ -48,7 +48,7 @@ public:
         pushButton_2->setGeometry(QRect(300, 30, 171, 141));
         pushButton_1 = new QPushButton(centralwidget);
         pushButton_1->setObjectName(QString::fromUtf8("pushButton_1"));
-        pushButton_1->setGeometry(QRect(80, 40, 171, 141));
+        pushButton_1->setGeometry(QRect(60, 30, 171, 141));
         pushButton_1->setCheckable(false);
         pushButton_4 = new QPushButton(centralwidget);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
